@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    print("dghjk")
     print("Hi worldddd")
     return "Hello, Dockerized Flask! hi hello123456"
 
